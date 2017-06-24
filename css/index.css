@@ -1,0 +1,120 @@
+html {
+	font-size: 100px;
+}
+
+body {
+	font-size: 16px;
+}
+
+@media screen and (min-width: 320px) {
+	html {
+		font-size: 42.66667px;
+	}
+}
+
+@media screen and (min-width: 360px) {
+	html {
+		font-size: 48px;
+	}
+}
+
+@media screen and (min-width: 375px) {
+	html {
+		font-size: 50px;
+	}
+}
+
+@media screen and (min-width: 412px) {
+	html {
+		font-size: 54.93333px;
+	}
+}
+
+@media screen and (min-width: 414px) {
+	html {
+		font-size: 55.2px;
+	}
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: "Helvetica Neue", "Microsoft YaHei", Helvetica, STHeiTi, Arial, sans-serif;
+	border: none;
+	text-decoration: none;
+}
+
+a,button,input,optgroup,select,textarea {
+	-webkit-tap-highlight-color: transparent;
+}
+
+input,textarea {
+	-webkit-appearance: none;
+}
+
+a,img {
+	-webkit-touch-callout: none;
+}
+
+#wrap {
+	background-color: #F7F7F7;
+	margin: 0 auto;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.con_box {
+	padding: 0 0.3rem;
+}
+
+/*标题*/
+.page_header h2 {
+	font-size: 0.44rem;
+	color: #404040;
+	padding: 0.4rem 0;
+	font-weight: 700;
+	max-height: 100%;
+	line-height: 0.6rem;
+}
+
+/*日期*/
+.info {
+	font-size: 0.24rem;
+	color: #767676;
+	max-height: 100%;
+}
+
+.info .time{
+	padding-right: 0.24rem;
+}
+
+/*正文*/
+.page_content{
+	padding-bottom: 0.8rem;
+}
+.page_content p{
+	font-size: 0.3rem;
+  margin-top: 0.4rem;
+  line-height: 0.48rem;
+}
+.page_content .data{
+	color: rgb(255, 0, 0);	
+	font-weight: bold;
+}
+
+.page_content p.P-img{
+	text-align: center; 
+	line-height: 100%; 
+}
+
+.page_content p.P-img img{
+	max-width: 100%;
+}
+
+.page_content p.P-more{
+	text-align: left;
+	font-weight: bold;
+}
